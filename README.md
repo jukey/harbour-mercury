@@ -20,7 +20,7 @@ exit
 3. Create a file `/home/nemo/.local/share/harbour-mercury/apikey` on the Sailfish device and insert your API ID and API HASH, without the tags
 `<>` (Avoid being root here!):
 
-```
+```bash
 cat <<EOF > /home/nemo/.local/share/harbour-mercury/apikey 
 api_id <ID>
 api_hash <HASH>
